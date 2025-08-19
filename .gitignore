@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---- VS Code ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- JetBrains IDE ----
+.idea/
+
+# ---- Images / Output ----
+*.jpg
+*.jpeg
+*.png
+*.gif
+output/
+image/output/
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Exceptions ----
+# Keep assets folder (images used as templates, etc.)
+!image/assets/

@@ -31,12 +31,17 @@ Thumbs.db
 # ---- JetBrains IDE ----
 .idea/
 
-# ---- Images / Output ----
+# Ignore all JPGs except rula.jpg
 *.jpg
+!rula.jpg
+
+# Ignore other common image formats
 *.jpeg
 *.png
 *.gif
-output/
+
+# Ignore output folders
+/output/
 image/output/
 
 # ---- Logs ----
@@ -45,4 +50,3 @@ logs/
 
 # ---- Exceptions ----
 # Keep assets folder (images used as templates, etc.)
-!image/assets/
